@@ -1,0 +1,154 @@
+.top {
+    background-image: url(/styles/joyce-mccown-791673-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+span {
+    display: block;
+}
+
+.logo i {
+    font-size: 90px;
+    margin-right: 15px;
+    color: brown;
+}
+
+h1 {
+    color: #2E2E2E;
+}
+
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search i {
+    font-size: 25px;
+    margin-left: 15px;
+    color: #585858;
+}
+
+
+#myInput {
+    width: 250px;
+}
+
+
+img {
+    width: 200px;
+    height: 310px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 310px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flip-card-inner h4{
+    font-size: 20px;
+    padding: 2px;
+}
+
+.flip-card-inner h5{
+    font-size: 12px;
+    padding: 15px;
+    text-align: justify;
+}
+
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #6E6E6E;
+    color: #2E2E2E;
+    z-index: 2;
+}
+
+.flip-card-back {
+    background-color: #D8D8D8;
+    color: #2E2E2E;
+    transform: rotateY(180deg);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    align-self: center;
+    width: 100px;
+  }
+
+.btn-dark{
+    background-color: brown;
+    border-color: brown;
+}
+
+#bookCase{
+    height: 2000px;
+}
+
+.books {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #585858;
+    color: whitesmoke;
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+}
+footer p{
+    margin: 0px;
+    padding-top: 10px;
+}
+
+
+
