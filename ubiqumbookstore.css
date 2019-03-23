@@ -10,16 +10,15 @@ span {
     display: block;
 }
 
-.logo i {
-    font-size: 90px;
+#bookLogo {
     margin-right: 15px;
-    color: brown;
+    height: 150px;
+    width: 150px;
 }
 
 h1 {
     color: #2E2E2E;
 }
-
 
 .head {
     display: flex;
@@ -48,9 +47,7 @@ h1 {
     color: #585858;
 }
 
-
-
-input{
+input {
     border-radius: 3px;
     width: 300px;
 }
@@ -79,12 +76,12 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.flip-card-inner h4{
+.flip-card-inner h4 {
     font-size: 20px;
     padding: 2px;
 }
 
-.flip-card-inner h5{
+.flip-card-inner h5 {
     font-size: 12px;
     padding: 15px;
     text-align: justify;
@@ -122,9 +119,9 @@ img {
 button {
     align-self: center;
     width: 100px;
-  }
+}
 
-.btn-dark{
+.btn-dark {
     background-color: brown;
     border-color: brown;
 }
@@ -145,10 +142,8 @@ footer {
     height: 50px;
     margin-top: 50px;
 }
-footer p{
+
+footer p {
     margin: 0px;
     padding-top: 10px;
 }
-
-
-
